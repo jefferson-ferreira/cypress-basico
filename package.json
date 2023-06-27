@@ -1,0 +1,29 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy.open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+    "test": "cypress run",
+    "test:mobile": "cypress run --config viewportWidth=410 viewportHeight=860"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefferson-ferreira/cypress-basico.git"
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Talking About Testing",
+    "Cypress Básico",
+    "Escola TAT"
+  ],
+  "author": "Jefferson Ferreira <jefferson_ferreira@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jefferson-ferreira/cypress-basico#readme",
+  "devDependencies": {
+    "cypress": "12.14.0"
+  }
+}
